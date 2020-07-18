@@ -1,8 +1,8 @@
 <template>
-  <div>
-    <p>{{ lat }}</p>
-    <p>{{ lng }}</p>
-    <a v-bind:href="mapUrl" target="_blank"> 詳細地図 </a>
+  <div class="container">
+    <p>緯度: {{ lat }}</p>
+    <p>経度: {{ lng }}</p>
+    <a class="button is-info" v-bind:href="mapUrl" target="_blank"> 詳細地図 </a>
     <figure class="image is-16by9">
       <iframe class="has-ratio" width="640" height="360" v-bind:src="embedUrl"></iframe>
     </figure>

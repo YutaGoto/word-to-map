@@ -2,6 +2,9 @@
   <div class="index">
     <Form @post="postWords" />
     <Map :lat="lat" :lng="lng" :mapUrl="mapUrl" />
+    <div class="container">
+      <a class="button is-black" href="https://github.com/YutaGoto/word-to-map" target="_blank">GitHub</a>
+    </div>
   </div>
 </template>
 

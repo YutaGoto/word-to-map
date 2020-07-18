@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <label class="label">単語</label>
     <div class="field">
       <div class="control">
