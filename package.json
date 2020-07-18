@@ -7,6 +7,8 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "axios": "^0.19.2",
+    "bulma": "^0.9.0",
     "vue": "^2.6.11",
     "vuex": "^3.4.0"
   },
